@@ -537,6 +537,7 @@ header .nav-bar{
   max-width:90%;
   margin: 0 auto;
   margin-top:35px;
+  padding-bottom: 30px;
 }
 .sucursales h1{
   padding-top: 30px;
@@ -568,4 +569,21 @@ header .nav-bar{
 .sucursales__content__title h2,
 .sucursales__content__title a{
   margin-right: 20px;
+}
+
+/*Footer*/
+.footer{
+  background-color: #ffffff;
+}
+.footer__content{
+  max-width:50%;
+  margin: 20px auto;
+  padding:20px;
+}
+@media(min-width:768px){
+  .footer__content{
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+  }
 }
