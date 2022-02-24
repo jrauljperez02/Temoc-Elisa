@@ -576,14 +576,20 @@ header .nav-bar{
   background-color: #ffffff;
 }
 .footer__content{
-  max-width:50%;
-  margin: 20px auto;
-  padding:20px;
+  max-width:90%;
+  margin: 0 auto;
+  padding-top:30px;
+  padding-bottom:30px;
+}
+.c{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction: column;
 }
 @media(min-width:768px){
-  .footer__content{
-    display:flex;
-    align-items: center;
+  .c{
     justify-content:space-around;
+    flex-direction: row;
   }
 }
