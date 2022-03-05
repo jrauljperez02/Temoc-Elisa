@@ -570,16 +570,18 @@ header .nav-bar{
 .sucursales__content__title a{
   margin-right: 20px;
 }
-
+.logo img{
+  width:250px;
+}
 /*Footer*/
 .footer{
-  background-color: #ffffff;
+  background-color: #000000;
 }
 .footer__content{
   max-width:90%;
   margin: 0 auto;
-  padding-top:30px;
-  padding-bottom:30px;
+  padding-top:20px;
+  padding-bottom:20px;
 }
 .c{
   display:flex;
